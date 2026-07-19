@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+nav {
+  background: #1e40af;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(rgba(30,64,175,0.9), rgba(30,64,175,0.8)), url('https://source.unsplash.com/random/1600x900/?programming') center/cover;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: #3b82f6;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Section */
+.section {
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+  color: #1e40af;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 25px;
+  width: 300px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.card h3 {
+  color: #1e40af;
+  margin-bottom: 10px;
+}
